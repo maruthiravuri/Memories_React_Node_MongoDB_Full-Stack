@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=ngc9gnGgUdA&t=799s
+
+cd C:\Codebases\MERN\Memories_React_Node_MongoDB_Full Stack
+
+
+--------------------------------------------------
+cd client :
+--------------------------------------------------
+npx create-react-app ./
+
+npm install axios moment react-file-base64 redux redux-thunk
+	- axios : for making API requests
+	- moment :  for time and date
+	- react-file-base64 : for convert images
+    - redux
+	- redux-thunk : async actions using redux
+
+npm start
+
+localhost:3000
+
+--------------------------------------------------
+server: 
+--------------------------------------------------
+npm init -y  	<-- initialize empty package.json
+
+npm install body-parser cors express mongoose nodemon
+  - body-parser : enable us to send POST requests
+  - cors : enable cross origin requests
+  - express : as a framework for creating the routing of the applications
+  - mongoose : to create models for our posts
+  - nodemon : no need to manually restart server
+  
+npm start 
+
+http://localhost:5000/posts  
+  
+  
