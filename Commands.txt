@@ -20,7 +20,7 @@ npm start
 localhost:3000
 
 npm install @material-ui/core
-	- Material UI allows us to create nice looking app without lot of styling
+	- Material UI allows us to create nice looking applications without lot of styling
 
 npm start
 --------------------------------------------------
